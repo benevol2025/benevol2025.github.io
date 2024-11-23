@@ -2,52 +2,32 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157734194-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-157734194-1');
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="BENEVOL: The 24th Belgium-Netherlands Software Evolution Workshop">
+    <meta name="author" content="Vadim Zaytsev">
     <title>BENEVOL 2025</title>
-
-    <!-- Font Awesome Icons -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS - Includes Bootstrap -->
     <link href="css/creative.css" rel="stylesheet">
+    <link href="css/mundane.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">BENEVOL 2025</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <ul class="navbar-nav">
                     <!--
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#keynotes">Keynotes</a>
@@ -81,52 +61,51 @@
 
     <!-- Masthead -->
     <header class="masthead">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center justify-content-center text-center">
-                <div class="col-lg-10 align-self-end">
+        <div class="container">
+            <div class="row outer">
+                <div class="inner1">
                     <img class="img-fluid" src="img/logo-benevol.png" alt="BENEVOL 2025">
-                    <!--<h1 class="text-uppercase text-white font-weight-bold">BENEVOL 2025 </h1>-->
-                    <hr class="divider my-4">
+                    <hr>
                 </div>
-                <div class="col-lg-12 align-self-baseline text-white">
-                    <h2>The 24th <span style="color:yellow">Be</span>lgium-<span style="color:yellow">Ne</span>therlands Software E<span style="color:yellow">vol</span>ution Workshop</h2>
-                    <h2 class="mb-5">Autumn 2025, Enschede, The Netherlands</h2>
+                <div class="inner2">
+                    <h2>The 24th <span class="hl">Be</span>lgium-<span class="hl">Ne</span>therlands Software E<span class="hl">vol</span>ution Workshop</h2>
+                    <h2>Autumn 2025, Enschede, The Netherlands</h2>
                 </div>
             </div>
         </div>
     </header>
 
 <!--
-    <section class="bg-white page-section" id="keynotes">
+    <section id="keynotes">
         <div class="container">
-            <h2 class="text-center mt-0">Keynotes</h2>
-            <hr class="divider my-4">
+            <h2>Keynotes</h2>
+            <hr>
             TBA
         </div>
     </section>
     
-    <section class="bg-light page-section" id="program">
+    <section id="program">
         <div class="container">
-            <h2 class="text-center mt-0">Programme</h2>
-            <hr class="divider my-4">
+            <h2>Programme</h2>
+            <hr>
             TBA
         </div>
     </section>
 -->
 
-    <section class="bg-white page-section" id="organisation">
+    <section id="organisation">
         <div class="container">
-            <h2 class="text-center mt-0">Organisation</h2>
-            <hr class="divider my-4">
-            <div class="col-lg-8 mx-auto my-4 text-justify">
-                <div class="row my-4 mx-auto">
-                    <div class="col-lg-4 text-center mx-auto d-block">
+            <h2>Organisation</h2>
+            <hr>
+            <div class="col">
+                <div class="row">
+                    <div class="card">
                         <a href="https://grammarware.github.io">
-                            <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/vadim.jpg" alt="Vadim Zaytsev Picture">
+                            <img class="pic" src="img/vadim.jpg" alt="Vadim Zaytsev Picture">
                         </a>
                         <a href="https://grammarware.github.io">
                             <h5>Vadim Zaytsev</h5>
-                            <p class="font-weight-light mb-0">
+                            <p class="person">
                                 <b>General Chair</b><br/>
                                 UTwente<br/>
                                 The Netherlands
@@ -134,13 +113,13 @@
                         </a>
                     </div>
                     <!--
-                    <div class="col-lg-4 text-center mx-auto d-block">
+                    <div class="card">
                         <a href="https://fernandocastor.github.io">
-                            <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/fernando.jpg" alt="Fernando Castor Picture">
+                            <img class="pic" src="img/fernando.jpg" alt="Fernando Castor Picture">
                         </a>
                         <a href="https://fernandocastor.github.io">
                             <h5>Fernando Castor</h5>
-                            <p class="font-weight-light mb-0">
+                            <p class="person">
                                 <b>Program Chair</b><br/>
                                 UTwente<br/>
                                 The Netherlands
@@ -148,13 +127,13 @@
                         </a>
                     </div>
                     -->
-                    <div class="col-lg-4 text-center mx-auto d-block">
-                        <a href="https://snail.info.unamur.be/author/benoit-vanderose">
-                            <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/michel.jpg" alt="Benoît Vanderose Picture">
+                    <div class="card">
+                        <a href="https://www.tue.nl/en/research/researchers/michel-chaudron">
+                            <img class="pic" src="img/michel.jpg" alt="Michel Chaudron Picture">
                         </a>
                         <a href="https://www.tue.nl/en/research/researchers/michel-chaudron">
                             <h5>Michel Chaudron</h5>
-                            <p class="font-weight-light mb-0">
+                            <p class="person">
                                 <b>Hackathon Chair</b><br/>
                                 TU/e<br/>
                                 The Netherlands
@@ -162,49 +141,49 @@
                         </a>
                     </div>
                 </div>
-                <div class="row my-4 mx-auto">
+                <div class="row">
                     ...more to be announced...
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-light page-section" id="cfp">
+    <section id="cfp">
         <div class="container">
-            <h2 class="text-center mt-0">Call for Papers</h2>
-            <hr class="divider my-4">
+            <h2>Call for Papers</h2>
+            <hr>
             <div class="row">
-                <div class="col-lg-8 mx-auto mt-4 mb-2 text-justify">
-                    <p class="mt-4 mb-2 text-justify lato">
+                <div class="col">
+                    <p class="text">
                         The goal of BENEVOL is to bring together researchers who are working in the field of software evolution and maintenance. BENEVOL offers an informal forum to meet and discuss new ideas, relevant problems, and fresh research results.
                     </p>
                     <br>
                     <h4>Submission Categories</h4>
-                    <p class="text-justify lato">
+                    <p class="text">
                         <b>Cutting-edge Original Research on Evolution (CORE).</b>
                         Full-length technical papers presenting original research which has been already empirically or formally validated. We also welcome papers in the early stages of their development that would benefit from feedback from the community.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         <b>Disruptive Ideas and Visionary Explorations (DIVE).</b>
                         We welcome position papers presenting new and potentially controversial software maintenance and evolution perspectives. Such papers may not have an evaluation, though illustrative examples and cases are welcome.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         <b>Reproduced, Examined, or Analysed Papers (REAP).</b>
                         The growing complexity and size of software systems combined with the rise of machine learning for maintenance and evolution tasks makes replicability challenging. We invite replication efforts of existing papers, describing successes (replicated), difficulties (invalidated), or refinements (of any kind). This category extends to new negative results, which are key to narrowing down hypotheses.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         <b>Summary of Highlights and Outstanding Work (SHOW).</b>
                         Presentation abstracts, progress reports, research results without inclusion in the proceedings. SHOW papers cover research that has already been accepted for publication, is being reviewed to be published, or is almost ready to be submitted to a conference or a journal.
                     </p>
                     <br>
                     <h4>Reviewing</h4>
-                    <p class="text-justify lato">
+                    <p class="text">
                         At least three programme committee members will review CORE, DIVE, and REAP papers. They will assess the adherence to the workshop's scope (maintenance and evolution) and the above categories. Accepted papers will be part of the proceedings. SHOW papers will only be reviewed for relevance and will be made available on the workshop's website. BENEVOL follows the single-blind reviewing model.
                     </p>
                     <br>
                     <h4>Pages and Prospects</h4>
-                    <p class="text-justify lato">
-                        <ul class="lato">
+                    <p class="text">
+                        <ul>
                             <li><b>CORE &amp; REAP Papers:</b> 10 to 12 pages of main text + an unlimited number of pages for references and appendices; to be invited to post-proceedings as full papers.</li>
                             <li><b>DIVE Papers:</b> Maximum 5 pages + 4 pages for references and appendices; to be invited to post-proceedings as full or short papers.</li>
                             <li><b>SHOW Papers:</b> Maximum 2 pages, including references; not to be included in the post-proceedings.</li>
@@ -212,26 +191,26 @@
                     </p>
                     <br/>
                     <h4>Submission Guidelines</h4>
-                    <p class="text-justify lato">
+                    <p class="text">
                         All submissions must conform to the new CEUR-ART style. One can use the LaTeX template directly on <a href="https://www.overleaf.com/read/gwhxnqcghhdt">Overleaf</a> or download an <a href="http://ceur-ws.org/Vol-XXX/CEURART.zip">offline version</a> with the style files (including DOCX template files). All submissions should use the single-column template.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         We allow using AI tools for writing assistance (grammar checkers, rephrasing). Of course, we explicitly forbid LLM-generated papers as it may lead to plagiarism and may be regarded as unethical. Therefore, such tools cannot be credited as authors. Please check the <a href="https://ceur-ws.org/ACADEMIC-ETHICS.html">CEUR-WS Policy on AI assisting tools</a> for more information.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         Papers should be submitted via EasyChair. Please mark the category it belongs to. You can upload incremental versions of your paper, so do not wait until the last minute to submit it.
                     </p>
-                    <p class="text-justify lato">
+                    <p class="text">
                         We will ask the authors to improve their paper and submit a camera-ready version according to the reviews. Proceedings shall be submitted to <a href="http://ceur-ws.org/">CEUR-WS.org</a> for online publication.
                     </p>
                     <br/>
 
                     <h4>Important Dates</h4>
-                    <p class="text-justify lato">
+                    <p class="text">
                         TBA
                         <!-- Below, you can find the important dates. <b>Please note that all dates are in the Anywhere on Earth (AoE, 23h59) calendar designation.</b> -->
                     </p>
-                    <!-- <ul class="lato">
+                    <!-- <ul>
                         <li><b>Submission Deadline:</b> Mon 23 September 2025</li>
                         <br>
                         <li><b>Author Notification Deadline:</b> Fri 25 October 2025</li>
@@ -249,18 +228,18 @@
         </div>
     </section>
     
-    <section class="bg-light page-section" id="venue">
+    <section id="venue">
         <div class="container">
-            <h2 class="text-center mt-0">Venue and Registration</h2>
-            <hr class="divider my-4">
+            <h2>Venue and Registration</h2>
+            <hr>
             TBA
         </div>
     </section>
 
-    <section class="bg-light page-section" id="history">
+    <section id="history">
         <div class="container">
-            <h2 class="text-center mt-0">History</h2>
-            <hr class="divider my-4">
+            <h2>History</h2>
+            <hr>
             <ul>
                 <li>
                     🇳🇱<a href="https://benevol2025.github.io">BENEVOL 2025</a> in Enschede
@@ -326,12 +305,11 @@
     </section>
 
         <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
 
         <!-- Plugin JavaScript -->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
 
         <!-- Custom scripts for this template -->
         <script src="js/creative.min.js"></script>

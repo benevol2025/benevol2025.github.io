@@ -1,0 +1,199 @@
+@media print
+{
+  .container {
+    min-width: 992px !important;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.hl
+{
+  color: yellow;
+}
+
+.person
+{
+  font-weight: 300 !important;
+  margin-bottom: 0 !important;
+}
+
+.pic
+{
+  max-width: 100%;
+  height: auto;
+  border-radius: 50% !important;
+  margin-bottom: 1rem !important;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px)
+{
+  .container
+  {
+    max-width: 960px;
+  }
+  .pic
+  {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .navbar-nav
+  {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .card
+  {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .col
+  {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .inner1
+  {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .inner2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+p.text, ul
+{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: justify !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row > div:first-child[p],
+.row > div > p:first-child
+{
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.card
+{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+hr {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #f4623a;
+  margin-top: 1.5rem !important;
+}
+
+ul.navbar-nav
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+
+  margin-left: auto !important;
+} ml-auto my-2 my-lg-0
+
+nav
+{
+  background-color: white;
+  text-color: black;
+}
+
+section
+{
+  background-color: #f8f9fa !important;
+  padding: 8rem 0;
+}
+
+.col
+{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: justify !important;
+}
+
+h2
+{
+  text-align: center !important;
+  margin-top: 0 !important;
+}
+
+.outer
+{
+  height: 100% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.inner1
+{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-self: flex-end;
+}
+
+.inner2
+{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-self: baseline;
+  color: white;
+}
