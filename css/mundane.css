@@ -73,8 +73,8 @@
   }
   .card
   {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    flex: 0 0 28%;
+    max-width: 28%;
   }
   .col
   {
@@ -101,8 +101,8 @@ p.text, ul
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .row > div:first-child[p],
@@ -121,6 +121,8 @@ p.text, ul
   text-align: center !important;
   margin-right: auto !important;
   display: block !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
 }
 
 hr {
