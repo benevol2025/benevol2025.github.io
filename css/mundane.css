@@ -1,15 +1,15 @@
-@media print
-{
+@media print {
   .container {
     min-width: 992px !important;
   }
 }
 
 .container {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -32,94 +32,91 @@
   }
 }
 
-.hl
-{
+.hl {
   color: yellow;
 }
 
-.person
-{
+.person {
   font-weight: 300 !important;
   margin-bottom: 0 !important;
+  color: black;
 }
 
-.pic
-{
+.pic {
+  position: relative;
+  box-sizing: border-box;
   max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 50% !important;
   margin-bottom: 1rem !important;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-@media (min-width: 992px)
-{
-  .container
-  {
+@media (min-width: 992px) {
+  .container {
     max-width: 960px;
   }
-  .pic
-  {
+
+  .pic {
+    box-sizing: content-box;
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .navbar-nav
-  {
+
+  .navbar-nav {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .card
-  {
+
+  .card {
     flex: 0 0 28%;
     max-width: 28%;
   }
-  .col
-  {
+
+  .col {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
   }
-  .inner1
-  {
+
+  .inner1 {
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
   }
+
   .inner2 {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
-p.text, ul
-{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+p.text, ul {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: justify !important;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 1.5rem;
   margin-right: auto;
   margin-left: auto;
+  justify-content: space-between;
 }
 
 .row > div:first-child[p],
-.row > div > p:first-child
-{
+.row > div > p:first-child {
   margin-top: 1.5rem !important;
   margin-bottom: 0.5rem !important;
 }
 
-.card
-{
+.card {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   text-align: center !important;
-  margin-right: auto !important;
   display: block !important;
   margin-bottom: 1.5rem !important;
   margin-top: 1.5rem !important;
@@ -132,8 +129,7 @@ hr {
   margin-top: 1.5rem !important;
 }
 
-ul.navbar-nav
-{
+ul.navbar-nav {
   display: flex;
   flex-direction: column;
   padding-left: 0;
@@ -142,60 +138,57 @@ ul.navbar-nav
 
 
   margin-left: auto !important;
-} ml-auto my-2 my-lg-0
-
-nav
-{
-  background-color: white;
-  text-color: black;
 }
 
-section
-{
+nav {
+  background-color: white;
+  color: black;
+}
+
+section {
   background-color: #f8f9fa !important;
   padding: 8rem 0;
 }
 
-.col
-{
+.col {
   position: relative;
+  box-sizing: border-box;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto !important;
   margin-left: auto !important;
   text-align: justify !important;
 }
 
-h2
-{
+.container .col {
+  /* Avoid double padding */
+  padding-right: unset;
+  padding-left: unset;
+}
+
+h2 {
   text-align: center !important;
   margin-top: 0 !important;
 }
 
-.outer
-{
+.outer {
   height: 100% !important;
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
 }
 
-.inner1
-{
+.inner1 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   align-self: flex-end;
 }
 
-.inner2
-{
+.inner2 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   align-self: baseline;
   color: white;
+  letter-spacing: -0.1px;
 }
