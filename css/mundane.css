@@ -1,3 +1,7 @@
+:root {
+  --accent: #f4623a;
+}
+
 @media print {
   .container {
     min-width: 992px !important;
@@ -125,7 +129,7 @@ p.text, ul {
 hr {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: var(--accent);
   margin-top: 1.5rem !important;
 }
 
@@ -135,7 +139,6 @@ ul.navbar-nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-
 
   margin-left: auto !important;
 }
@@ -147,7 +150,7 @@ nav {
 
 section {
   background-color: #f8f9fa !important;
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .col {
