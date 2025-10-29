@@ -29,6 +29,9 @@ body {
   background-color: var(--bg);
 }
 
+strong.red {color:red;}
+strong.grn {color:green;}
+
 hr {
   box-sizing: content-box;
   height: 0;
