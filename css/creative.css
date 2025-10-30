@@ -1100,6 +1100,15 @@ mark,
   }
 }
 
+table.sch {border-collapse:collapse; width: 100%;}
+table.sch th {padding: 1em 0;}
+table.sch tr.sep {border-bottom:2pt solid orange; padding-top: 10pt;}
+table.sch td:first-child {white-space: nowrap;}
+table.sch table.sch td:first-child {padding-right: 1ex; padding-left: 3pt; border-left:2pt solid orange;}
+sub {font-size:120%; font-size:inherit;}
+sup {margin-left: -2pt;}
+.latex {font-family: serif;}
+
 body,
 html {
   width: 100%;
