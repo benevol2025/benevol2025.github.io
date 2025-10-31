@@ -1148,19 +1148,19 @@ table.sch table.sch td:last-child {
 
 .latex {
   line-height: 1; /* Keep the lines tight */
-  font-family: "Times New Roman", serif;
+  font-family: "Times New Roman", "Times", serif;
   text-transform: uppercase;
 }
 
 .latex > .a {
-  font-size: 0.85em;
-  vertical-align: 0.15ex;
+  font-size: 0.8em;
+  vertical-align: 0.375ex;
   margin-left: -0.375em;
   margin-right: -0.15em;
 }
 
 .latex > .e {
-  vertical-align: -0.5ex;
+  vertical-align: -0.375ex;
   margin-left: -0.15em;
   margin-right: -0.125em;
 }
