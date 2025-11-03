@@ -1138,13 +1138,19 @@ table.sch table.sch td {
 
 table.sch table.sch td:first-child {
   padding-left: 0.75em;
-  padding-right: 1.625em;
 }
 
 table.sch table.sch td:last-child {
   width: 100%;
   white-space: normal;
 }
+
+table.sch table.sch td {
+  padding-right: 0.75em;
+}
+
+span.presenter { color: darkblue; }
+span.talk { text-decoration: underline wavy; font-style: italic; color: #f4623a;}
 
 .latex {
   line-height: 1; /* Keep the lines tight */
