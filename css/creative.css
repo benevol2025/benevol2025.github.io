@@ -1134,12 +1134,16 @@ table.sch table.sch {
 }
 
 table.sch table.sch td:first-child {
-  padding: 0 0.75em;
+  padding-left: 0.75em;
 }
 
 table.sch table.sch td:last-child {
   width: 100%;
   white-space: normal;
+}
+
+table.sch table.sch td {
+  padding-right: 0.125em;
 }
 
 span.talk {
@@ -1156,6 +1160,29 @@ td.with-emoji span.presenter {
 
 li {
   margin-bottom: 0.5em;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.cta {
+  background-color: var(--accent);
+  border: none;
+  padding: 0.75em 1.25em;
+  border-radius: 0.25em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button.cta,
+button.cta a {
+  color: var(--bg);
+}
+
+button.cta:hover,
+button.cta:focus {
+  background-color: var(--accent-hover);
 }
 
 .latex {
