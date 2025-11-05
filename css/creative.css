@@ -1111,8 +1111,9 @@ table.sch th {
 }
 
 table.sch td {
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   text-align: left;
+  vertical-align: top;
 }
 
 table.sch td:first-child {
@@ -1132,12 +1133,8 @@ table.sch table.sch {
   border-left: 2pt solid var(--accent);
 }
 
-table.sch table.sch td {
-  vertical-align: top;
-}
-
 table.sch table.sch td:first-child {
-  padding-left: 0.75em;
+  padding: 0 0.75em;
 }
 
 table.sch table.sch td:last-child {
@@ -1145,12 +1142,21 @@ table.sch table.sch td:last-child {
   white-space: normal;
 }
 
-table.sch table.sch td {
-  padding-right: 0.75em;
+span.talk {
+  color: var(--accent);
 }
 
-span.presenter { color: darkblue; }
-span.talk { text-decoration: underline wavy; font-style: italic; color: #f4623a;}
+span.presenter {
+  font-style: italic;
+}
+
+td.with-emoji span.presenter {
+  margin-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
 
 .latex {
   line-height: 1; /* Keep the lines tight */
