@@ -1,0 +1,40 @@
+body
+{
+	font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	background-color: #304050;
+	color: #DDDDDD;
+}
+
+a, a:link, a:visited, a:hover, .hl {color:#EBE183;}
+
+.pages
+{
+	float: right;
+	font-size: smaller;
+	margin-right: 5ex;
+}
+
+.class {font-size: smaller;}
+.class span {display: none; padding-left: 5px;}
+.class:hover span {display: inline;}
+.title {font-style: italic;}
+strong {color:white;}
+
+.latex {
+  line-height: 1; /* Keep the lines tight */
+  font-family: "Times New Roman", "Times", serif;
+  text-transform: uppercase;
+}
+
+.latex > .a {
+  font-size: 0.8em;
+  vertical-align: 0.375ex;
+  margin-left: -0.375em;
+  margin-right: -0.15em;
+}
+
+.latex > .e {
+  vertical-align: -0.375ex;
+  margin-left: -0.15em;
+  margin-right: -0.125em;
+}
