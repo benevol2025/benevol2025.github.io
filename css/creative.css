@@ -29,9 +29,9 @@ body {
   background-color: var(--bg);
 }
 
-strong.red {color: red;}
-strong.blk {color: black;}
-strong.grn {color: green;}
+.red {color: red;}
+.blk {color: black;}
+.grn {color: green;}
 
 hr {
   box-sizing: content-box;
@@ -1164,6 +1164,11 @@ li {
 
 button {
   cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(100%);
 }
 
 button.cta {
