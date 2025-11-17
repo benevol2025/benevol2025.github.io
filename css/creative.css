@@ -1150,6 +1150,10 @@ span.talk a, span.talk em {
   color: var(--accent);
 }
 
+span.talk a.ext {
+  color: #6666CC;
+}
+
 span.presenter {
   font-style: italic;
 }
