@@ -1146,7 +1146,7 @@ table.sch table.sch td {
   padding-right: 0.125em;
 }
 
-span.talk {
+span.talk a, span.talk em {
   color: var(--accent);
 }
 
