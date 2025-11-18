@@ -218,6 +218,32 @@ mark,
   height: auto;
 }
 
+.img-link {
+  cursor: zoom-in;
+}
+
+.img-link > img {
+  width: 100%;
+  height: auto;
+}
+
+.images-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.images-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.images-row > *,
+.images-col > * {
+  flex: 1;
+}
+
 .figure {
   display: inline-block;
 }
