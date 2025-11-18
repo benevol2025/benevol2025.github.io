@@ -1181,10 +1181,14 @@ span.talk a.ext {
 }
 
 .presenter {
+  text-decoration: underline;
+}
+
+.author {
   font-style: italic;
 }
 
-td.with-emoji .presenter {
+td.with-emoji .author {
   margin-left: 1.5em;
 }
 
