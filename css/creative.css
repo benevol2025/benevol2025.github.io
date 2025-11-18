@@ -1154,11 +1154,11 @@ span.talk a.ext {
   color: #6666CC;
 }
 
-span.presenter {
+.presenter {
   font-style: italic;
 }
 
-td.with-emoji span.presenter {
+td.with-emoji .presenter {
   margin-left: 1.5em;
 }
 
