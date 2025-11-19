@@ -65,9 +65,24 @@ def transform(args):
       pages = f'{pagecount+1}–{pagecount+numpages}'
       pagecount += numpages
       authors = clean_authors(papers[code][3:])
+      key = authors[0].split()[-1]
+      if len(authors) > 1:
+        for author in authors[1:]:
+          key += author.split()[-1][0]
+      with open(f'pre/paper{code}.bib', 'w', encoding='utf-8') as bib:
+        bib.write(f'''@inproceedings{{{key}2025,
+\tauthor    = "{" and ".join(authors)}",
+\ttitle     = "{{{title}}}",
+\tbooktitle = "{{Pre-proceedings of the 24th Belgium-Netherlands Software Evolution Workshop (BENEVOL)}}",
+\tpages     = "{pages}",
+\teditor    = "Vadim Zaytsev and Fernando Castor",
+\turl       = "https://benevol2025.github.io/pre/paper{code}.pdf",
+\tyear      = 2025,
+}}
+''')
       return ['<li>',\
         f'  <a href="paper{code}.pdf" class="title">{title}</a>',\
-        f'  <span class="pages">{pages}</span>',\
+        f'  <span class="pages"><a href="paper{code}.bib">{pages}</a></span>',\
         f'  <div class="authors">{", ".join(authors)}</div>',\
         f'  <div class="class">{emojify[type]}<span>{type} ({fulltype[type]})</span></div>',\
         '</li>'
