@@ -140,15 +140,12 @@
             <td colspan="2">
               <table class="sch">
                 <tr>
-                  <td>11:30 – 11:50</td>
                   ¶schedule:01
                 </tr>
                 <tr>
-                  <td>11:50 – 12:00</td>
                   ¶schedule:02
                 </tr>
                 <tr>
-                  <td>12:20 – 12:30</td>
                   ¶schedule:03
                 </tr>
               </table>
@@ -166,27 +163,21 @@
             <td colspan="2">
               <table class="sch">
                 <tr>
-                  <td>13:40 – 14:00</td>
                   ¶schedule:04
                 </tr>
                 <tr>
-                  <td>14:00 – 14:10</td>
                   ¶schedule:05
                 </tr>
                 <tr>
-                  <td>14:10 – 14:20</td>
                   ¶schedule:06
                 </tr>
                 <tr>
-                  <td>14:20 – 14:30</td>
                   ¶schedule:07
                 </tr>
                 <tr>
-                  <td>14:35 – 14:55</td>
                   ¶schedule:08
                 </tr>
                 <tr>
-                  <td>14:55 – 15:05</td>
                   ¶schedule:09
                 </tr>
               </table>
@@ -204,15 +195,12 @@
             <td colspan="2">
               <table class="sch">
                 <tr>
-                  <td>15:30 – 15:50</td>
                   ¶schedule:10
                 </tr>
                 <tr>
-                  <td>15:50 – 16:10</td>
                   ¶schedule:11
                 </tr>
                 <tr>
-                  <td>16:10 – 16:30</td>
                   ¶schedule:12
                 </tr>
               </table>
@@ -268,19 +256,15 @@
             <td colspan="2">
               <table class="sch">
                 <tr>
-                  <td>11:00 – 11:20</td>
                   ¶schedule:13
                 </tr>
                 <tr>
-                  <td>11:20 – 11:30</td>
                   ¶schedule:14
                 </tr>
                 <tr>
-                  <td>11:30 – 11:40</td>
                   ¶schedule:16
                 </tr>
                 <tr>
-                  <td>11:40 – 11:50</td>
                   ¶schedule:17
                 </tr>
               </table>
@@ -313,15 +297,12 @@
             <td colspan="2">
               <table class="sch">
                 <tr>
-                  <td>15:00 – 15:20</td>
                   ¶schedule:20
                 </tr>
                 <tr>
-                  <td>15:20 – 15:40</td>
                   ¶schedule:19
                 </tr>
                 <tr>
-                  <td>15:40 – 16:00</td>
                   ¶schedule:18
                 </tr>
               </table>

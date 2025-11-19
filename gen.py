@@ -17,6 +17,18 @@ def clean_authors(authors):
       result.append(author)
   return result
 
+def time_shift(stime, type):
+  h = int(stime[0])
+  m = int(stime[1])
+  if type == 'SHOW':
+    m += 10
+  else:
+    m += 20
+  if m >= 60:
+    m -= 60
+    h += 1
+  return str(h).zfill(2)+':'+str(m).zfill(2)
+
 def transform(args):
   global pagecount
   if len(args) == 0:
@@ -25,9 +37,11 @@ def transform(args):
     if args[0] == 'schedule':
       code = args[1]
       type = papers[code][0]
-      title = papers[code][1]
-      authors = papers[code][3:]
-      result = [f'<td>{emojify[type]}</td>','<td>']
+      stime = papers[code][1]
+      etime = time_shift(stime.split(':'), type)
+      title = papers[code][2]
+      authors = papers[code][4:]
+      result = [f'<td>{stime} – {etime}</td>',f'<td>{emojify[type]}</td>','<td>']
       if os.path.exists(f'pre/paper{code}.pdf'):
         result.append(f'  <span class="talk">')
         result.append(f'    <a href="pre/paper{code}.pdf">{title}</a>')
@@ -60,11 +74,11 @@ def transform(args):
       # 01;DIVE;An Introduction to Indirect Code Completion;!Nhat;Vadim Zaytsev
       code = args[1]
       type = papers[code][0]
-      title = papers[code][1]
-      numpages = int(papers[code][2])
+      title = papers[code][2]
+      numpages = int(papers[code][3])
       pages = f'{pagecount+1}–{pagecount+numpages}'
       pagecount += numpages
-      authors = clean_authors(papers[code][3:])
+      authors = clean_authors(papers[code][4:])
       key = authors[0].split()[-1]
       if len(authors) > 1:
         for author in authors[1:]:
