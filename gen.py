@@ -96,13 +96,15 @@ def transform(args):
           key += author.split()[-1][0]
       with open(f'pre/paper{code}.bib', 'w', encoding='utf-8') as bib:
         bib.write(f'''@inproceedings{{{key}2025,
-\tauthor    = "{" and ".join(authors)}",
-\ttitle     = "{{{title}}}",
-\tbooktitle = "{{Pre-proceedings of the 24th Belgium-Netherlands Software Evolution Workshop (BENEVOL)}}",
-\tpages     = "{pages}",
-\teditor    = "Vadim Zaytsev and Fernando Castor",
-\turl       = "https://benevol2025.github.io/pre/paper{code}.pdf",
-\tyear      = 2025,
+\tauthor       = "{" and ".join(authors)}",
+\ttitle        = "{{{title}}}",
+\tbooktitle    = "{{Pre-proceedings of the 24th Belgium-Netherlands Software Evolution Workshop (BENEVOL)}}",
+\tpages        = "{pages}",
+\teditor       = "Vadim Zaytsev and Fernando Castor",
+\torganization = "University of Twente",
+\taddress      = "Enschede, The Netherlands",
+\turl          = "https://benevol2025.github.io/pre/paper{code}.pdf",
+\tyear         = 2025,
 }}
 ''')
       return ['<li>',\
