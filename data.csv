@@ -7,7 +7,7 @@
 07;SHOW;14:20;A Method for Inferring Python Proficiency from Textbooks;2;https://doi.org/10.1109/ICSME58944.2024.00035@ICSME’24;https://doi.org/10.1145/3524610.3527878@ICPC’22;Ruksit Rojpaisarnkit;!Gregorio Robles;Jesús M. González-Barahona;Kenichi Matsumoto;Raula Gaikovina Kula
 08;DIVE;14:35;BRIDGE: Building Reliable Interfaces for Developer Guidance and Exploration through Static Analysis and LLM Translation;9;https://doi.org/10.18653/v1/2024.findings-acl.939@ACL’24;https://github.com/krinara86/Bridge-Benevol@GitHub;!Krishna Narasimhan;Mairieli Wessel
 09;SHOW;14:55;On the Automation and Reuse Practices in GitHub Actions: Results of a Qualitative Survey;2;https://doi.org/10.1145/3643991.3644867@MSR’24;!Hassan Onsori Delicheh;Guillaume Cardoen;Alexandre Decan;Tom Mens
-10;DIVE;15:30;On the Structuring of LaTeX Projects;7;Wouter ten Brinke;Bart Griepsma;Aleksandra Ignatovič;Nhat;!Vadim Zaytsev
+10;DIVE;15:30;On the Structuring of LaTeX Projects;7;https://purl.utwente.nl/essays/107262@BSc;https://purl.utwente.nl/essays/107264@BSc;https://purl.utwente.nl/essays/107820@BSc;Wouter ten Brinke;Bart Griepsma;Aleksandra Ignatovič;Nhat;!Vadim Zaytsev
 11;DIVE;15:50;ClassViz: From Verification Tool to Research Vessel;7;https://doi.org/10.1109/MSR59073.2023.00029@MSR’23;https://github.com/rsatrioadi/classviz@GitHub;!Satrio Adi Rukmono
 12;CORE;16:10;Pseudonymization as a Service: Compartmentalizing and Controlling Data Processing in Evolving Systems with Micropseudonymization;14;!Job Doesburg;Bernard van Gastel;Erik Poll
 13;CORE;11:00;On the Evolution of Direct Dependencies in npm Packages;12;!Shahin Ebrahimi-Kia;Jesús M. González-Barahona;David Moreno-Lumbreras;Gregorio Robles;Tom Mens
@@ -16,5 +16,5 @@
 16;SHOW;11:30;On the Transferability of a Bot Detection Model from GitHub to GitLab;2;!Cyril Moreau
 17;SHOW;11:40;Evolution-Resilient Class Contours;2;!Mattia Giannaccari;Marco Raglianti
 18;DIVE;15:40;Preliminary Survey on CPS Testing in Various Domains of the Industry;8;Guillaume Nguyen;!Xavier Devroey
-19;CORE;15:20;FlaDaGe: A Framework for Generation of Synthetic Data to Compare Flakiness Scores;19;Mert Ege Can;!Joanna Kisaakye;Mutlu Beyazıt;Serge Demeyer
-20;REAP;15:00;Evaluating Test-Driven Code Generation: A Replication Study;11;!Giovanni Rosa;Jesús Maria González-Barahona
+19;CORE;15:20;FlaDaGe: A Framework for Generation of Synthetic Data to Compare Flakiness Scores;19;https://doi.org/10.5281/zenodo.17206909@replication package;Mert Ege Can;!Joanna Kisaakye;Mutlu Beyazıt;Serge Demeyer
+20;REAP;15:00;Evaluating Test-Driven Code Generation: A Replication Study;11;https://arxiv.org/abs/2401.08500@arXiv;!Giovanni Rosa;Jesús Maria González-Barahona
