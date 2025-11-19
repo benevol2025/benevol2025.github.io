@@ -1,7 +1,7 @@
 01;DIVE;An Introduction to Indirect Code Completion;6;!Nhat;Vadim Zaytsev
 02;SHOW;Same Size, Different Costs: Phase-Level Energy Variations in Transformer Models during Code Generation;2;!Lola Solovyeva
 03;SHOW;The Cost of AI-Assisted Coding: Energy vs. Accuracy in Language Models;3;!Negar Alizadeh;Boris Belchev;Nishant Saurabh;Patricia Kelbert
-04;DIVE;Bridging CPU and GPU in Rust;6;!Niek Aukes;Cristian-Andrei Begu;Georgiana Caltais
+04;DIVE;Bridging CPU and GPU in Rust;6;https://purl.utwente.nl/essays/100981@MSc;https://purl.utwente.nl/essays/107371@MSc;!Niek Aukes;Cristian-Andrei Begu;Georgiana Caltais
 05;SHOW;Sampling Threat when Mining Generalizable Inter-Library Usage Patterns;2;https://doi.org/10.1016/j.scico.2025.103393@SCP;!Yunior Pacheco;Coen De Roover;Johannes Härtel
 06;SHOW;An Analysis of Code Clones in GitHub Actions Workflows;2;!Guillaume Cardoen;Alexandre Decan;Tom Mens
 07;SHOW;A Method for Inferring Python Proficiency from Textbooks;2;https://doi.org/10.1109/ICSME58944.2024.00035@ICSME’24;https://doi.org/10.1145/3524610.3527878@ICPC’22;Ruksit Rojpaisarnkit;!Gregorio Robles;Jesús M. González-Barahona;Kenichi Matsumoto;Raula Gaikovina Kula

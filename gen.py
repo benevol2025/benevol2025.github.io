@@ -112,6 +112,9 @@ if __name__ == "__main__":
     html = almost.with_suffix('.html')
     with almost.open('r', encoding='utf-8') as src, html.open('w', encoding='utf-8') as dst:
       for line in src:
+        sline = line.strip()
+        if not sline or sline.startswith('<!--') and sline.endswith('-->'):
+          continue
         if line.find('¶') > 0:
           before, after = line.split('¶')
           for tline in transform(after.rstrip().split(':')):
