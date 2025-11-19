@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="BENEVOL: The 24th Belgium-Netherlands Software Evolution Workshop">
+  <meta name="author" content="Vadim Zaytsev">
+  <title>BENEVOL 2025</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic"
+        rel="stylesheet" type="text/css">
+
+  <link href="css/creative.css" rel="stylesheet">
+  <link href="css/mundane.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">BENEVOL 2025</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#program">Programme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#community">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#venue">Venue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="pre/index.html">Proceedings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#cfp">CfP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#history">History</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Masthead -->
+<header class="masthead">
+  <div class="container">
+    <div class="row outer">
+      <div class="inner1">
+        <img class="img-fluid" src="img/logo-benevol.png" alt="BENEVOL 2025">
+        <hr>
+      </div>
+      <div class="inner2">
+        <h2>The 24<sup>th</sup> <span class="hl">Be</span>lgium-<span class="hl">Ne</span>therlands
+          Software E<span class="hl">vol</span>ution Workshop</h2>
+        <h2><span class="hl">17–18 November</span> 2025, Enschede, The Netherlands</h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="program">
+  <div class="container">
+    <h2>Programme</h2>
+    <div style="text-align: center;">(tentative; see also ❗<a href="pre">pre-proceedings</a>❗)</div>
+    <hr>
+    <div class="col">
+      <div class="row">
+        <p class="text">
+          Symbols designate 🔥Keynote, 🔬CORE, 🚀DIVE, 🔁REAP, and 🌟SHOW papers.
+          <br>
+          <span class="author presenter">Presenters</span> are underlined among <span class="author">authors</span>.
+        </p>
+      </div>
+
+      <div class="row">
+        <table class="table sch">
+          <tbody>
+          <tr>
+            <th colspan="2">
+              <div class="big-day">16</div>
+              <div>Sunday</div>
+              <div>November 2025</div>
+            </th>
+          </tr>
+          <tr>
+            <td>19:00 – 23:00</td>
+            <td style="vertical-align: middle;">
+              Unofficial pre-opening at
+              <br>🍺<a href="https://stanislausbrewskovitch.nl/">Stanislaus Brewskovitch</a> and
+              <br>🍻<a href="https://twentschefoodhal.nl/">Twentsche Foodhal</a>🍔
+            </td>
+          </tr>
+          <tr class="sep">
+            <td></td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <div class="big-day">17</div>
+              <div>Monday</div>
+              <div>November 2025</div>
+            </th>
+          </tr>
+          <tr>
+            <td>09:00 – 09:45</td>
+            <td>Reception, tea, coffee</td>
+          </tr>
+          <tr>
+            <td>09:45 – 10:00</td>
+            <td>Workshop opening</td>
+          </tr>
+          <tr>
+            <td>10:00 – 11:00</td>
+            <td class="with-emoji">
+              <strong>🔥 Keynote:</strong>
+              <span class="talk"><em>From the Trenches</em></span>
+              <br>
+              <span class="author presenter with-emoji">Darius Blasband</span>
+            </td>
+          </tr>
+          <tr>
+            <td>11:00 – 11:30</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>11:30 – 12:30</td>
+            <td><strong>Efficiency and Intelligence in Code Generation</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>11:30 – 11:50</td>
+                  ¶schedule:01
+                </tr>
+                <tr>
+                  <td>11:50 – 12:00</td>
+                  ¶schedule:02
+                </tr>
+                <tr>
+                  <td>12:20 – 12:30</td>
+                  ¶schedule:03
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>12:35 – 13:40</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>13:40 – 15:00</td>
+            <td><strong>Mining and Modelling of Software Knowledge</strong>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>13:40 – 14:00</td>
+                  ¶schedule:04
+                </tr>
+                <tr>
+                  <td>14:00 – 14:10</td>
+                  ¶schedule:05
+                </tr>
+                <tr>
+                  <td>14:10 – 14:20</td>
+                  ¶schedule:06
+                </tr>
+                <tr>
+                  <td>14:20 – 14:30</td>
+                  ¶schedule:07
+                </tr>
+                <tr>
+                  <td>14:35 – 14:55</td>
+                  ¶schedule:08
+                </tr>
+                <tr>
+                  <td>14:55 – 15:05</td>
+                  ¶schedule:09
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>15:00 – 15:30</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>15:30 – 16:30</td>
+            <td><strong>Structure and Visualisation in Evolving Software Systems</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>15:30 – 15:50</td>
+                  ¶schedule:10
+                </tr>
+                <tr>
+                  <td>15:50 – 16:10</td>
+                  ¶schedule:11
+                </tr>
+                <tr>
+                  <td>16:10 – 16:30</td>
+                  ¶schedule:12
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td>
+              <strong>Group photos</strong>
+              <div class="images-col" style="padding-top: 1em;">
+                <a href="img/group-photo-ls.jpg" target="_blank" class="img-link">
+                    <img src="img/group-photo-thumb-ls.jpg" alt="Group photo of almost all BENEVOL participants, photo courtesy of Lola Solovyeva" title="photo courtesy of Lola Solovyeva">
+                </a>
+                <a href="img/group-photo-vz.jpg" target="_blank" class="img-link">
+                    <img src="img/group-photo-thumb-vz.jpg" alt="Group photo of almost all BENEVOL participants, photo courtesy of Vadim Zaytsev" title="photo courtesy of Vadim Zaytsev">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>18:00 – 23:00</td>
+            <td>🍜 Dinner at U Park Hotel</td>
+          </tr>
+          <tr class="sep">
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <div class="big-day">18</div>
+              <a id="program-day2"></a>
+              <div>Tuesday</div>
+              <div>November 2025</div>
+            </th>
+          </tr>
+          <tr>
+            <td>09:30 – 10:30</td>
+            <td class="with-emoji">
+              <strong>🔥 Keynote:</strong>
+              <span class="talk"><a href="pre/paper15.pdf">Language-Level Support for Multiple Versions for Software Evolution</a></span>
+              <br>
+              <span class="author presenter">Hidehiko Masuhara</span>
+            </td>
+          </tr>
+          <tr>
+            <td>10:30 – 11:00</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>11:00 – 11:50</td>
+            <td><strong>Evolving Software Ecosystems</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>11:00 – 11:20</td>
+                  ¶schedule:13
+                </tr>
+                <tr>
+                  <td>11:20 – 11:30</td>
+                  ¶schedule:14
+                </tr>
+                <tr>
+                  <td>11:30 – 11:40</td>
+                  ¶schedule:16
+                </tr>
+                <tr>
+                  <td>11:40 – 11:50</td>
+                  ¶schedule:17
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>11:50 – 12:45</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>13:00 – 14:30</td>
+            <td>
+              💾 <strong>Social event</strong>: a visit to the <a href="https://studieverzameling.utwente.nl/"><strong>Historic Study Collection</strong></a> (<a href="https://www.utwente.nl/download/campusmap.pdf">Carré</a> building)
+              <div class="images-col" style="padding-top: 1em;">
+                <a href="img/siemens-hell-schrijver.jpg" target="_blank" class="img-link">
+                    <img src="img/siemens-hell-schrijver-thumb.jpg" alt="Siemens Hell Schrijver from 1960, photo courtesy of Nhat Bui" title="photo courtesy of Nhat Bui">
+                </a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>14:30 – 15:00</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>15:00 – 16:00</td>
+            <td><strong>Software Testing</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>15:00 – 15:20</td>
+                  ¶schedule:20
+                </tr>
+                <tr>
+                  <td>15:20 – 15:40</td>
+                  ¶schedule:19
+                </tr>
+                <tr>
+                  <td>15:40 – 16:00</td>
+                  ¶schedule:18
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>16:00 – 16:10</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <td>16:10 – 17:00</td>
+            <td><strong>Tool Market</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <table class="sch">
+                <tr>
+                  <td>16:10 – 16:20</td>
+                  <td>🔧</td>
+                  <td>
+                    <span class="talk"><a href="https://github.com/pooya-rostami/gawd" class="ext">gawd</a></span>
+                    by
+                    <span class="author presenter">Pooya Rostami Mazrae</span>,
+                    <span class="author">Alexandre Decan</span>,
+                    <span class="author">Tom Mens</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>16:20 – 16:30</td>
+                  <td>🔧</td>
+                  <td>
+                    <span class="talk"><a href="https://github.com/uhourri/ghmap" class="ext">ghmap</a></span>
+                    by
+                    <span class="author presenter">Youness Hourri</span>
+                    <span class="author">Alexandre Decan</span>,
+                    <span class="author">Tom Mens</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>16:30 – 16:40</td>
+                  <td>🔧</td>
+                  <td>
+                    <span class="talk"><a href="https://github.com/omersayilir75/CPSDSL" class="ext">CPSLint</a></span>
+                    by
+                    <span class="author presenter">Ömer Sayilir</span>,
+                    <span class="author">Vadim Zaytsev</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>16:40 – 16:50</td>
+                  <td>🔧</td>
+                  <td>
+                    <span class="talk"><a href="https://github.com/NiekAukes/rust-gpu-hybrid-compiler" class="ext">rust-gpu-hybrid-compiler</a></span>
+                    by
+                    <span class="author">Niek Aukes</span>,
+                    <span class="author presenter">Andrei Begu</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>16:50 – 17:00</td>
+                  <td>🔧</td>
+                  <td>
+                    <span class="talk"><a href="https://github.com/2tolgahan2/RESTCov" class="ext">RESTCov</a></span>
+                    by
+                    <span class="author presenter">Tolga</span><span class="author">han Bardakcı</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>17:00 +</td>
+            <td>
+              Closing and afterparty
+              <div class="images-col" style="padding-top: 1em;">
+                <a href="img/benevol26.png" class="img-link">
+                    <img src="img/benevol26.png" alt="BENEVOL 2026" title="logo proposal drawn by Vadim Zaytsev">
+                </a>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="community">
+  <div class="container">
+    <h2>Community</h2>
+    <hr>
+    <div class="col">
+      <div class="row">
+        <div class="card">
+          <a href="https://grammarware.github.io">
+            <img class="pic" src="img/vadim.jpg" alt="Vadim Zaytsev Picture">
+          </a>
+          <a href="https://grammarware.github.io">
+            <h5>Vadim Zaytsev</h5>
+            <p class="person">
+              <b>General Chair</b><br>
+              UTwente<br>
+              The Netherlands
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://fernandocastor.github.io">
+            <img class="pic" src="img/fernando.jpg" alt="Fernando Castor Picture">
+          </a>
+          <a href="https://fernandocastor.github.io">
+            <h5>Fernando Castor</h5>
+            <p class="person">
+              <b>Programme Chair</b><br>
+              UTwente<br>
+              The Netherlands
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <a href="https://www.dariusblasband.com/">
+            <img class="pic" src="img/darius.jpg" alt="Darius Blasband Picture">
+          </a>
+          <a href="https://www.dariusblasband.com/">
+            <h5>Darius Blasband</h5>
+            <p class="person">
+              <b>Industrial Keynote</b><br>
+              Raincode<br>
+              Belgium
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://prg.is.titech.ac.jp/people/masuhara/">
+            <img class="pic" src="img/hidehiko.jpg" alt="Hidehiko Masuhara Picture">
+          </a>
+          <a href="https://prg.is.titech.ac.jp/people/masuhara/">
+            <h5>Hidehiko&nbsp;Masuhara</h5>
+            <p class="person">
+              <b>Academic Keynote</b><br>
+              Institute of Science<br>
+              Tokyo, Japan
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <a href="https://people.utwente.nl/o.f.sayilir">
+            <img class="pic" src="img/omer.jpg" alt="Ömer Sayilir Picture">
+          </a>
+          <a href="https://people.utwente.nl/o.f.sayilir">
+            <h5>Ömer Sayilir</h5>
+            <p class="person">
+              <b>Local Chair</b><br>
+              UTwente<br>
+              The Netherlands
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://people.utwente.nl/n.bui">
+            <img class="pic" src="img/nhat.jpg" alt="Nhat Bui Picture">
+          </a>
+          <a href="https://people.utwente.nl/n.bui">
+            <h5>Nhat Bui</h5>
+            <p class="person">
+              <b>Local Chair</b><br>
+              UTwente<br>
+              The Netherlands
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://people.utwente.nl/o.solovyeva">
+            <img class="pic" src="img/lola.jpg" alt="Lola Solovyeva Picture">
+          </a>
+          <a href="https://people.utwente.nl/o.solovyeva">
+            <h5>Lola Solovyeva</h5>
+            <p class="person">
+              <b>Local Chair</b><br>
+              UTwente<br>
+              The Netherlands
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="committee">
+  <div class="container">
+    <h2>Programme Committee</h2>
+    <hr>
+    <div class="col">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="https://alexandernolte.github.io">Alexander Nolte</a>, Eindhoven University of Technology,
+            Netherlands
+          </li>
+          <li>
+            <a href="https://www.tue.nl/en/research/researchers/alexander-serebrenik">Alexander Serebrenik</a>,
+            Eindhoven University of Technology, Netherlands
+          </li>
+          <li>
+            <a href="https://decan.lexpage.net">Alexandre Decan</a>, University of Mons, Belgium
+          </li>
+          <li>
+            <a href="https://www.uva.nl/en/profile/o/p/a.m.oprescu/a.m.oprescu.html?cb">Ana-Maria Oprescu</a>,
+            University of Amsterdam, Netherlands
+          </li>
+          <li>
+            <a href="https://www.rug.nl/staff/a.capiluppi/?lang=en">Andrea Capiluppi</a>, University of Groningen,
+            Netherlands
+          </li>
+          <li>
+            <a href="https://aranega.github.io/author/anne-etien/">Anne Etien</a>, University of Lille, France
+          </li>
+          <li>
+            <a href="https://carolin-brandt.de">Carolin Brandt</a>, Delft University of Technology, Netherlands
+          </li>
+          <li>
+            <a href="http://soft.vub.ac.be/~cderoove/">Coen De Roover</a>, Vrije Universiteit Brussel, Belgium
+          </li>
+          <li>
+            <a href="https://feitosa-daniel.github.io">Daniel Feitosa</a>, University of Groningen, Netherlands
+          </li>
+          <li>
+            <a href="https://gsyc.urjc.es/~grex/">Gregorio Robles</a>, Universidad Rey Juan Carlos, Spain
+          </li>
+          <li>
+            <a href="http://fernandocastor.github.io">Fernando Castor</a>, University of Twente, Netherlands
+          </li>
+          <li>
+            <a href="https://www.johanfabry.be">Johan Fabry</a>, Raincode Labs, Belgium
+          </li>
+          <li>
+            <a href="https://lmove.github.io">Lina Ochoa-Venegas</a>, Eindhoven University of Technology, The
+            Netherlands
+          </li>
+          <li>
+            <a href="https://mairieli.com">Mairieli Wessel</a>, Radboud University, Netherlands
+          </li>
+          <li>
+            <a href="https://mgerhold.personalweb.utwente.nl">Marcus Gerhold</a>, University of Twente, Netherlands
+          </li>
+          <li>
+            <a href="https://ropdeb.ee">Ruben Opdebeeck</a>, Vrije Universiteit Brussel, Belgium
+          </li>
+          <li>
+            <a href="https://www.uantwerpen.be/en/staff/serge-demeyer/">Serge Demeyer</a>, Universiteit Antwerpen
+            (ANSYMO), Belgium
+          </li>
+          <li>
+            <a href="https://siamakfarshidi.nl">Siamak Farshidi</a>, Wageningen University & Research, Netherlands
+          </li>
+          <li>
+            <a href="https://slingerjansen.nl/whats-in-a-name/">Slinger Jansen</a>, Utrecht University, Netherlands
+          </li>
+          <li>
+            <a href="https://research.vu.nl/en/persons/vincenzo-stoico">Vincenzo Stoico</a>, Vrije Universiteit
+            Amsterdam
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="venue">
+  <div class="container">
+    <h2>Venue and Registration</h2>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <p class="text">
+          The hosting organisation is the <a href="https://www.utwente.nl/en/contact/route/">University of Twente</a>,
+          the location is the <strong>C2 room</strong> of the <a href="https://www.uparkhotel.nl/en">U Park Hotel</a>
+          on the campus of the said university.
+          The pre-opening on Day 0 (16 November) takes place in the city centre of Enschede.
+          The social event on Day 2 (18 November) takes place in the Carré building on the campus.
+        </p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4886.145664533968!2d6.848552289726094!3d52.24206074261589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b813c89a5f5b5d%3A0xb418abdfcf79aa17!2sU%20Parkhotel!5e0!3m2!1sen!2snl!4v1762341330387!5m2!1sen!2snl"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p class="text">
+          The University of Twente is located between two cities: <strong>Hengelo</strong> and <strong>Enschede</strong>.
+          We recommend choosing one of the following options for your stay:
+        </p>
+        <ul>
+          <li>
+            <strong>Campus</strong>: stay directly at the <a href="https://www.uparkhotel.nl/en/sleep">U Park Hotel</a>.
+            If you mention you are coming for BENEVOL, they will charge you the discounted price of €123–138
+            for the night between the workshop days and/or €133–138 for the night before the workshop.
+            We have reserved a small block of room specifically for this purpose.
+            If they run out of available rooms or if you prefer a cheaper alternative,
+            we recommend <a href="https://www.fletcherhotelenschede.nl/en/">De Broeierd (Fletcher)</a>
+            which is across the road from the campus and will put you at 15–20 minutes walking from the workshop venue.
+          </li>
+          <li>
+            <strong>City</strong>: choose either <a
+              href="https://www.booking.com/searchresults.en-gb.html?ss=Hengelo%2C+Overijssel%2C+Netherlands&amp;efdco=1&amp;label=gen173nr-10CAEoggI46AdIM1gEaKkBiAEBmAEzuAEHyAEP2AED6AEB-AEBiAIBqAIBuAKD8aTIBsACAdICJDQ1YjNhZDZlLTdlYTQtNDI4OC05YTIzLWY1ZDA0YjIzMDc5Y9gCAeACAQ&amp;sid=4ca5879ec1b78e77c3df05bfffde7d2b&amp;aid=304142&amp;lang=en-gb&amp;sb=1&amp;src_elem=sb&amp;src=index&amp;dest_id=-2145890&amp;dest_type=city&amp;ac_position=0&amp;ac_click_type=b&amp;ac_langcode=en&amp;ac_suggestion_list_length=5&amp;search_selected=true&amp;search_pageview_id=a8c8a401eaf10866&amp;ac_meta=GhBhOGM4YTQwMWVhZjEwODY2IAAoATICZW46BGhlbmdAAEoAUAA%3D&amp;checkin=2025-11-16&amp;checkout=2025-11-18&amp;group_adults=1&amp;no_rooms=1&amp;group_children=0#map_opened">
+            Hengelo</a> or <a
+              href="https://www.booking.com/searchresults.en-gb.html?label=gen173nr-10CAEoggI46AdIM1gEaKkBiAEBmAEzuAEHyAEP2AED6AEB-AEBiAIBqAIBuAKD8aTIBsACAdICJDQ1YjNhZDZlLTdlYTQtNDI4OC05YTIzLWY1ZDA0YjIzMDc5Y9gCAeACAQ&amp;sid=4ca5879ec1b78e77c3df05bfffde7d2b&amp;aid=304142&amp;ss=Enschede+Station%2C+Enschede%2C+Overijssel%2C+Netherlands&amp;ssne=Hengelo&amp;ssne_untouched=Hengelo&amp;lang=en-gb&amp;src=searchresults&amp;dest_id=434&amp;dest_type=landmark&amp;ac_position=0&amp;ac_click_type=b&amp;ac_langcode=en&amp;ac_suggestion_list_length=5&amp;search_selected=true&amp;search_pageview_id=4deb000e657a076e&amp;checkin=2025-11-16&amp;checkout=2025-11-18&amp;group_adults=1&amp;no_rooms=1&amp;group_children=0&amp;nflt=oos%3D1">
+            Enschede</a> and stay in one of the bookable hotels around their corresponding Central Station.
+            Then, take <em>bus 9</em> towards the campus, either <a
+              href="https://www.google.com/maps/dir/Hengelo,+Centraal+Station,+7551+CN+Hengelo/U+Parkhotel,+De+Veldmaat,+Enschede/@52.2422187,6.7990764,13z/data=!3m2!4b1!5s0x47b813d9720e2eed:0x59d493eb7abb728f!4m14!4m13!1m5!1m1!1s0x47b811e3544f3229:0xbaee896395ebc888!2m2!1d6.7940889!2d52.2623014!1m5!1m1!1s0x47b813c89a5f5b5d:0xb418abdfcf79aa17!2m2!1d6.8555314!2d52.2430232!3e3?entry=ttu&amp;g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D">from
+            Hengelo</a> or <a
+              href="https://www.google.com/maps/dir/Enschede+Centraal+Station,+Niederlande,+Enschede/U+Parkhotel,+De+Veldmaat,+Enschede/@52.231688,6.8443782,14z/data=!3m2!4b1!5s0x47b813d9720e2eed:0x59d493eb7abb728f!4m14!4m13!1m5!1m1!1s0x47b8147510042cfd:0x6ad8eb288733dbeb!2m2!1d6.89025!2d52.22236!1m5!1m1!1s0x47b813c89a5f5b5d:0xb418abdfcf79aa17!2m2!1d6.8555314!2d52.2430232!3e3?entry=ttu&amp;g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D">from
+            Enschede</a>, and exit it at either <em>Kennispark/UT</em> or <em>Westerbegraafplaats/UT</em>.
+            Commuting by bus from either central station will take 20–25 minutes,
+            including the walking time, to the venue.
+            You can pay on the bus by swiping your bank card at the entrance
+            and exit without any registration.
+            Alternatively, you can also ask the human driver to give you a more expensive but old-fashioned paper
+            ticket.
+          </li>
+        </ul>
+        <p class="text">
+          The former option adds a bit to your initial and final travel time, but puts you one elevator ride away from
+          the workshop and enables you to take a stroll through our very green campus early in the morning or late in
+          the afternoon.
+          The campus is essentially a town of its own, with cafés, supermarkets, hairdressers, swimming pools, and
+          whatnot.
+          The latter option simplifies your journey but adds a bus ride at the start and end of each day.
+          Hengelo is slightly easier to reach from Germany,
+          and Enschede is slightly easier to reach from the west of the Netherlands.
+        </p>
+        <p class="text">
+          Choose wisely! And do get in touch with general/local chairs if you need any assistance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cfp">
+  <div class="container">
+    <h2>Call for Papers</h2>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <p class="text">
+          The goal of BENEVOL is to bring together researchers who are working in the field of software evolution and
+          maintenance. BENEVOL offers an informal forum to meet and discuss new ideas, relevant problems, and fresh
+          research results.
+        </p>
+        <br>
+        <h4>Submission Categories</h4>
+        <p class="text">
+          <b>Cutting-edge Original Research on Evolution (🔬CORE).</b>
+          Full-length technical papers presenting original research which has been already empirically or formally
+          validated. We also welcome papers in the early stages of their development that would benefit from feedback
+          from the community.
+        </p>
+        <p class="text">
+          <b>Disruptive Ideas and Visionary Explorations (🚀DIVE).</b>
+          We welcome position papers presenting new and potentially controversial software maintenance and evolution
+          perspectives. Such papers may not have an evaluation, though illustrative examples and cases are welcome.
+        </p>
+        <p class="text">
+          <b>Reproduced, Examined, or Analysed Papers (🔁REAP).</b>
+          The growing complexity and size of software systems combined with the rise of machine learning for maintenance
+          and evolution tasks makes replicability challenging. We invite replication efforts of existing papers,
+          describing successes (replicated), difficulties (invalidated), or refinements (of any kind). This category
+          extends to new negative results, which are key to narrowing down hypotheses.
+        </p>
+        <p class="text">
+          <b>Summary of Highlights and Outstanding Work (🌟SHOW).</b>
+          Presentation abstracts, progress reports, research results without inclusion in the proceedings. SHOW papers
+          cover research that has already been accepted for publication, is being reviewed to be published, or is almost
+          ready to be submitted to a conference or a journal.
+        </p>
+        <br>
+        <h4>Reviewing</h4>
+        <p class="text">
+          At least three programme committee members will review 🔬CORE, 🚀DIVE, and 🔁REAP papers. They will assess the
+          adherence to the workshop's scope (maintenance and evolution) and the above categories. Accepted papers will
+          be part of the proceedings. 🌟SHOW papers will only be reviewed for relevance and will be made available on the
+          workshop's website. BENEVOL follows the <strong>single-blind</strong> reviewing model.
+        </p>
+        <br>
+        <h4>Pages and Prospects</h4>
+        <ul>
+          <li><b>🔬CORE &amp; 🔁REAP Papers:</b> 10 to 12 pages of main text + an unlimited number of pages for references
+            and appendices; to be invited to post-proceedings as full papers.
+          </li>
+          <li><b>🚀DIVE Papers:</b> Maximum 5 pages + 4 pages for references and appendices; to be invited to
+            post-proceedings as full or short papers.
+          </li>
+          <li><b>🌟SHOW Papers:</b> Maximum 2 pages, including references; not to be included in the post-proceedings.
+          </li>
+        </ul>
+        <br>
+        <h4>Submission Guidelines</h4>
+        <p class="text">
+          All submissions must conform to the new CEUR-ART style. One can use the <span class="latex">L<span
+            class="a">A</span>T<span class="e">E</span>X</span> template directly on <a
+            href="https://www.overleaf.com/read/gwhxnqcghhdt">Overleaf</a> or download an <a
+            href="http://ceur-ws.org/Vol-XXX/CEURART.zip">offline version</a> with the style files (including DOCX
+          template files). All submissions should use the <strong>single-column</strong> template.
+        </p>
+        <p class="text">
+          We allow using AI tools for writing assistance (grammar checkers, rephrasing). Of course, we explicitly forbid
+          LLM-generated papers as it may lead to plagiarism and may be regarded as unethical. Therefore, such tools
+          cannot be credited as authors. Please check the <a href="https://ceur-ws.org/ACADEMIC-ETHICS.html">CEUR-WS
+          Policy on AI assisting tools</a> for more information.
+        </p>
+        <p class="text">
+          Papers should be submitted via <a href="https://easychair.org/conferences?conf=benevol2025">EasyChair</a>.
+          Please mark the category it belongs to. You can upload incremental
+          versions of your paper, so do not wait until the last minute to submit it.
+        </p>
+        <p class="text">
+          We give the opportunity to authors to adjust their paper before the workshop
+          according to the reviews, to be shared thorugh this website. After the workshop,
+          there will be another opportunity to update the papers — based on reviews as well
+          as on the feedback received during your presentation and in discussions which followed.
+          Post-proceedings will be submitted to <a href="http://ceur-ws.org/">CEUR-WS.org</a> in early 2026.
+        </p>
+        <br>
+
+        <h4>Important Dates</h4>
+        <p class="text">
+          All dates are in the Anywhere on Earth (AoE, 23:59) calendar designation.
+        </p>
+        <ul>
+          <li><strong>Submission Deadline:</strong> Fri 3 October 2025</li>
+          <li><strong>Author Notification Deadline:</strong> Fri 24 October 2025</li>
+          <li><strong>Author Registration Deadline:</strong> Mon 10 November 2025</li>
+          <li><a href="pre"><strong class="grn">Pre</strong>-<strong class="blk">proceedings</strong></a> Camera-Ready Deadline:</b> Fri 7 November 2025 (📒<a href="pre">online</a>)</li>
+          <li><strong>Workshop Date:</strong> Mon–Tue 17–18 November 2025</li>
+          <li><strong><span class="grn">Post</span>-proceedings Camera-Ready Deadline:</strong> Fri <strong class="red">19 December 2025</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="history">
+  <div class="container">
+    <h2>History</h2>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>
+            🇳🇱 <a href="https://benevol2025.github.io">BENEVOL 2025</a> in Enschede
+          </li>
+          <li>
+            🇧🇪 <a href="https://benevol2024.github.io">BENEVOL 2024</a> in Namur
+            (<a href="https://ceur-ws.org/Vol-3941">CEUR 3941</a>)
+          </li>
+          <li>
+            🇳🇱 <a href="https://benevol2023.github.io">BENEVOL 2023</a> in Nijmegen
+            (<a href="https://ceur-ws.org/Vol-3567">CEUR 3567</a>)
+          </li>
+          <li>
+            🇧🇪 <a href="https://benevol2022.github.io">BENEVOL 2022</a> in Mons
+            (<a href="https://ceur-ws.org/Vol-3245">CEUR 3245</a>)
+          </li>
+          <li>
+            🇳🇱 <a href="https://benevol2021.github.io">BENEVOL 2021</a> in ‘s Hertogenbosch
+            (<a href="https://ceur-ws.org/Vol-3071">CEUR 3071</a>)
+          </li>
+          <li>
+            🇱🇺 <a href="https://benevol2020.github.io">BENEVOL 2020</a> in Luxembourgh
+            (<a href="https://ceur-ws.org/Vol-2912">CEUR 2912</a>)
+          </li>
+          <li>
+            🇧🇪 <a href="https://soft.vub.ac.be/benevol2019/">BENEVOL 2019</a> in Brussels
+            (<a href="https://ceur-ws.org/Vol-2605">CEUR 2605</a>)
+          </li>
+          <li>
+            🇳🇱 <a href="https://se.ewi.tudelft.nl/benevol2018/">BENEVOL 2018</a> in Delft
+            (<a href="https://ceur-ws.org/Vol-2361">CEUR 2361</a>)
+          </li>
+          <li>
+            🇧🇪 <a href="https://ansymore.uantwerpen.be/events/benevol2017">BENEVOL 2017</a> in Antwerpen
+            (<a href="https://ceur-ws.org/Vol-2047">CEUR 2047</a>)
+          </li>
+          <li>
+            🇳🇱 <a href="https://benevol2016.wordpress.com">BENEVOL 2016</a> in Utrecht
+          </li>
+          <li>
+            🇫🇷 <a href="https://www.cristal.univ-lille.fr/evolille2015/benevol.html">BENEVOL 2015</a> in Lille
+          </li>
+          <li>
+            🇳🇱 <a href="https://web.archive.org/web/20181031153802/https://benevol.cwi.nl/2014/">
+            BENEVOL 2014</a> in Amsterdam
+          </li>
+          <li>🇧🇪 BENEVOL 2013 in Mons</li>
+          <!-- https://www.cetic.be/Seminaire-BENEVOL-2013-1943 -->
+          <li>🇳🇱 BENEVOL 2012 in Delft</li>
+          <!-- https://www.slideshare.net/slideshow/benevol-2013-keynote-the-social-software-revolution/15480756 -->
+          <li>🇧🇪 <a href="https://soft.vub.ac.be/benevol2011/">BENEVOL 2011</a> in Brussels</li>
+          <li>🇫🇷 <a href="https://web.archive.org/web/20120118115045/http://rmod.lille.inria.fr/benevol/">BENEVOL
+            2010</a> in Lille
+          </li>
+          <!-- https://researchr.org/conference/benevol-2010 -->
+          <li>🇧🇪 BENEVOL 2009 in Louvain-la-Neuve</li>
+          <!-- https://www.cetic.be/CETIC-au-Workshop-BENEVOL-2009 -->
+          <li>🇳🇱 <a href="https://web.archive.org/web/20240219062714/https://www-set.win.tue.nl/benevol2008/">BENEVOL
+            2008</a> in Eindhoven
+          </li>
+          <li>🇧🇪 <a href="https://staff.info.unamur.be/acl/benevol/">BENEVOL 2007</a> in Namur</li>
+          <li>🇳🇱 BENEVOL 2006 in Delft</li>
+          <li>🇧🇪 <a href="https://web.archive.org/web/20061018002017/http://restructuring.ulb.ac.be/events/benevol4/">
+            BENEVOL 2005'</a> in Brussels
+          </li>
+          <li>🇳🇱 <a
+              href="https://web.archive.org/web/20240911042015/http://www.program-transformation.org/Transform/BenevolTwoThousandFive">
+            BENEVOL 2005</a> in Eindhoven
+          </li>
+          <li>🇧🇪 <a
+              href="https://web.archive.org/web/20240505190031/https://www.program-transformation.org/Transform/BenevolTwoThousandFour">
+            BENEVOL 2004</a> in Antwerpen
+          </li>
+          <li>🇳🇱 <a
+              href="https://web.archive.org/web/20240715104741/https://www.program-transformation.org/Transform/BenevolTwoThousandThree">
+            BENEVOL 2003</a> in Amsterdam
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
+
+</body>
+
+</html>

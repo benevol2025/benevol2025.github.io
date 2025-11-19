@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="BENEVOL: The 24th Belgium-Netherlands Software Evolution Workshop">
+  <meta name="author" content="Vadim Zaytsev">
+  <title>BENEVOL 2025 Pre-proceedings</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic"
+        rel="stylesheet" type="text/css">
+  <link href="proceedings.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>
+    <a href="https://benevol2025.github.io/"><img src="../img/logo-benevol.png" width="200px"></a>
+    Pre-proceedings of <strong>BENEVOL 2025</strong>:
+    <br>
+    The 24<sup>th</sup> <span class="hl">Be</span>lgium-<span class="hl">Ne</span>therlands
+          Software E<span class="hl">vol</span>ution Workshop
+  </h1>
+  <hr>
+  <ul>
+    <li>Edited by <a href="https://grammarware.net/">Vadim Zaytsev</a> (General Chair)</li>
+    <li>Collected by <a href="https://fernandocastor.github.io/">Fernando Castor</a> (Programme Chair)</li>
+    <li>Reviewed by <a href="https://benevol2025.github.io/#committee">the PC of BENEVOL 2025</a></li>
+  </ul>
+  <h2>Table of Contents</h2>
+  <ul>
+    <li>
+      Section “<strong>Efficiency and Intelligence in Code Generation</strong>”
+      <ul>
+        ¶append:01
+        ¶append:02
+        ¶append:03
+        ¶append:04
+      </ul>
+    </li>
+    <li>
+      Section “<strong>Mining and Modelling of Software Knowledge</strong>”
+      <ul>
+        ¶append:05
+        ¶append:06
+        ¶append:07
+        ¶append:08
+        ¶append:09
+      </ul>
+    </li>
+    <li>
+      Section “<strong>Structure and Visualisation in Evolving Software Systems</strong>”
+      <ul>
+        ¶append:10
+        ¶append:11
+        ¶append:12
+      </ul>
+    </li>
+    <li>
+      Section “<strong>Evolving Software Ecosystems</strong>”
+      <ul>
+        ¶append:13
+        ¶append:14
+        ¶append:15
+        ¶append:16
+        ¶append:17
+      </ul>
+    </li>
+    <li>
+      Section “<strong>Software Testing</strong>”
+      <ul>
+        ¶append:18
+        ¶append:19
+        ¶append:20
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <h6>
+    Copyright © 2025 for the individual papers by the papers' authors.
+    Copyright © 2025 for the preproceedings volume as a collection by its editors.
+    This volume and its papers are published under the Creative Commons License Attribution 4.0 International (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).
+  </h6>
+</body>
+</html>
