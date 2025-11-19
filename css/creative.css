@@ -1180,7 +1180,7 @@ span.talk a, span.talk em {
   color: var(--accent);
 }
 
-a.ext {
+span.talk a.ext, a.ext {
   color: #6666CC;
 }
 

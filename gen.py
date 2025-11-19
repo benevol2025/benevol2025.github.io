@@ -42,7 +42,7 @@ def transform(args):
       title = papers[code][2]
       authors = papers[code][4:]
       result = ['<tr>']
-      if False and os.path.exists(f'slides/deck{code}.pdf'):
+      if os.path.exists(f'slides/deck{code}.pdf'):
         result.append('  <td>')
         result.append(f'    {stime} – {etime}')
         result.append('    <br>')
