@@ -139,15 +139,9 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  ¶schedule:01
-                </tr>
-                <tr>
-                  ¶schedule:02
-                </tr>
-                <tr>
-                  ¶schedule:03
-                </tr>
+                ¶schedule:01
+                ¶schedule:02
+                ¶schedule:03
               </table>
             </td>
           </tr>
@@ -162,24 +156,12 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  ¶schedule:04
-                </tr>
-                <tr>
-                  ¶schedule:05
-                </tr>
-                <tr>
-                  ¶schedule:06
-                </tr>
-                <tr>
-                  ¶schedule:07
-                </tr>
-                <tr>
-                  ¶schedule:08
-                </tr>
-                <tr>
-                  ¶schedule:09
-                </tr>
+                ¶schedule:04
+                ¶schedule:05
+                ¶schedule:06
+                ¶schedule:07
+                ¶schedule:08
+                ¶schedule:09
               </table>
             </td>
           </tr>
@@ -194,15 +176,9 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  ¶schedule:10
-                </tr>
-                <tr>
-                  ¶schedule:11
-                </tr>
-                <tr>
-                  ¶schedule:12
-                </tr>
+                ¶schedule:10
+                ¶schedule:11
+                ¶schedule:12
               </table>
             </td>
           </tr>
@@ -255,18 +231,10 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  ¶schedule:13
-                </tr>
-                <tr>
-                  ¶schedule:14
-                </tr>
-                <tr>
-                  ¶schedule:16
-                </tr>
-                <tr>
-                  ¶schedule:17
-                </tr>
+                ¶schedule:13
+                ¶schedule:14
+                ¶schedule:16
+                ¶schedule:17
               </table>
             </td>
           </tr>
@@ -296,15 +264,9 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  ¶schedule:20
-                </tr>
-                <tr>
-                  ¶schedule:19
-                </tr>
-                <tr>
-                  ¶schedule:18
-                </tr>
+                ¶schedule:20
+                ¶schedule:19
+                ¶schedule:18
               </table>
             </td>
           </tr>

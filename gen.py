@@ -41,31 +41,42 @@ def transform(args):
       etime = time_shift(stime.split(':'), type)
       title = papers[code][2]
       authors = papers[code][4:]
-      result = [f'<td>{stime} – {etime}</td>',f'<td>{emojify[type]}</td>','<td>']
+      result = ['<tr>']
+      if False and os.path.exists(f'slides/deck{code}.pdf'):
+        result.append('  <td>')
+        result.append(f'    {stime} – {etime}')
+        result.append('    <br>')
+        result.append(f'    (<a href="slides/deck{code}.pdf" class="ext">🖥️slides</a>)')
+        result.append('  </td>')
+      else:
+        result.append(f'  <td>{stime} – {etime}</td>')
+      result.append(f'  <td>{emojify[type]}</td>')
+      result.append('  <td>')
       if os.path.exists(f'pre/paper{code}.pdf'):
-        result.append(f'  <span class="talk">')
-        result.append(f'    <a href="pre/paper{code}.pdf">{title}</a>')
+        result.append(f'    <span class="talk">')
+        result.append(f'      <a href="pre/paper{code}.pdf">{title}</a>')
         if authors[0].startswith('https'):
           cf = []
           while authors[0].startswith('https'):
             link, name = authors[0].split('@')
             cf.append(f'<a href="{link}" class="ext">{name}</a>')
             authors = authors[1:]
-          result.append(f'    (cf. {" &amp; ".join(cf)})')
-        if os.path.exists(f'slides/deck{code}.pdf'):
-          result.append(f'    (<a href="slides/deck{code}.pdf" class="ext">🖥️slides</a>)')
-        result.append(f'  </span>')
+          result.append(f'      (cf. {" &amp; ".join(cf)})')
+        # if os.path.exists(f'slides/deck{code}.pdf'):
+        #   result.append(f'    (<a href="slides/deck{code}.pdf" class="ext">🖥️slides</a>)')
+        result.append(f'    </span>')
       else:
-        result.append(f'  <span class="talk"><em>{title}</em></span>')
-      result.append('  <br>')
+        result.append(f'    <span class="talk"><em>{title}</em></span>')
+      result.append('    <br>')
       for author in authors:
         if author.startswith('!'):
-          result.append(f'  <span class="author presenter">{author[1:]}</span>,')
+          result.append(f'    <span class="author presenter">{author[1:]}</span>,')
         else:
-          result.append(f'  <span class="author">{author}</span>,')
+          result.append(f'    <span class="author">{author}</span>,')
       # kill the last comma
       result[-1] = result[-1][:-1]
-      result.append('</td>')
+      result.append('  </td>')
+      result.append('</tr>')
       return result
     if args[0] == 'skippages':
       pagecount += int(args[1])
