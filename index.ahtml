@@ -277,57 +277,11 @@
           <tr>
             <td colspan="2">
               <table class="sch">
-                <tr>
-                  <td>16:10 – 16:20</td>
-                  <td>🔧</td>
-                  <td>
-                    <span class="talk"><a href="https://github.com/pooya-rostami/gawd" class="ext">gawd</a></span>
-                    by
-                    <span class="author presenter">Pooya Rostami Mazrae</span>,
-                    <span class="author">Alexandre Decan</span>,
-                    <span class="author">Tom Mens</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>16:20 – 16:30</td>
-                  <td>🔧</td>
-                  <td>
-                    <span class="talk"><a href="https://github.com/uhourri/ghmap" class="ext">ghmap</a></span>
-                    by
-                    <span class="author presenter">Youness Hourri</span>
-                    <span class="author">Alexandre Decan</span>,
-                    <span class="author">Tom Mens</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>16:30 – 16:40</td>
-                  <td>🔧</td>
-                  <td>
-                    <span class="talk"><a href="https://github.com/omersayilir75/CPSDSL" class="ext">CPSLint</a></span>
-                    by
-                    <span class="author presenter">Ömer Sayilir</span>,
-                    <span class="author">Vadim Zaytsev</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>16:40 – 16:50</td>
-                  <td>🔧</td>
-                  <td>
-                    <span class="talk"><a href="https://github.com/NiekAukes/rust-gpu-hybrid-compiler" class="ext">rust-gpu-hybrid-compiler</a></span>
-                    by
-                    <span class="author">Niek Aukes</span>,
-                    <span class="author presenter">Andrei Begu</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>16:50 – 17:00</td>
-                  <td>🔧</td>
-                  <td>
-                    <span class="talk"><a href="https://github.com/2tolgahan2/RESTCov" class="ext">RESTCov</a></span>
-                    by
-                    <span class="author presenter">Tolga</span><span class="author">han Bardakcı</span>
-                  </td>
-                </tr>
+                ¶schedule:gawd
+                ¶schedule:ghmap
+                ¶schedule:CPSLint
+                ¶schedule:rust-gpu-hybrid-compiler
+                ¶schedule:RESTCov
               </table>
             </td>
           </tr>

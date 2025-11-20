@@ -2,7 +2,7 @@
 import os, pathlib
 
 papers = {}
-emojify = {'CORE':'🔬', 'DIVE':'🚀', 'REAP':'🔁', 'SHOW':'🌟'}
+emojify = {'CORE':'🔬', 'DIVE':'🚀', 'REAP':'🔁', 'SHOW':'🌟', 'TOOL':'🔧'}
 fulltype = {'CORE':'Cutting-edge Original Research on Evolution', 'DIVE':'Disruptive Ideas and Visionary Explorations', 'REAP':'Reproduced, Examined, or Analysed Papers', 'SHOW':'Summary of Highlights and Outstanding Work'}
 pagecount = 0
 
@@ -20,7 +20,7 @@ def clean_authors(authors):
 def time_shift(stime, type):
   h = int(stime[0])
   m = int(stime[1])
-  if type == 'SHOW':
+  if type == 'SHOW' or type == 'TOOL':
     m += 10
   else:
     m += 20
@@ -52,7 +52,10 @@ def transform(args):
         result.append(f'  <td>{stime} – {etime}</td>')
       result.append(f'  <td>{emojify[type]}</td>')
       result.append('  <td>')
-      if os.path.exists(f'pre/paper{code}.pdf'):
+      if title.startswith('https://'):
+        result.append(f'    <span class="talk"><a href="{title}" class="ext">{code}</a></span>')
+        result.append('    by')
+      elif os.path.exists(f'pre/paper{code}.pdf'):
         result.append(f'    <span class="talk">')
         result.append(f'      <a href="pre/paper{code}.pdf">{title}</a>')
         if authors[0].startswith('https'):
@@ -65,11 +68,15 @@ def transform(args):
         # if os.path.exists(f'slides/deck{code}.pdf'):
         #   result.append(f'    (<a href="slides/deck{code}.pdf" class="ext">🖥️slides</a>)')
         result.append(f'    </span>')
+        result.append('    <br>')
       else:
         result.append(f'    <span class="talk"><em>{title}</em></span>')
-      result.append('    <br>')
+        result.append('    <br>')
       for author in authors:
-        if author.startswith('!'):
+        if author.find('¡') > 0:
+          first, last = author.split('¡')
+          result.append(f'    <span class="author presenter">{first}</span><span class="author">{last}</span>,')
+        elif author.startswith('!'):
           result.append(f'    <span class="author presenter">{author[1:]}</span>,')
         else:
           result.append(f'    <span class="author">{author}</span>,')
@@ -124,7 +131,8 @@ def explain(s):
     .replace('LLM', '<abbr title="Large Language Model">LLM</abbr>')\
     .replace('LaTeX', '<span class="latex">L<span class="a">A</span>T<span class="e">E</span>X</span>')\
     .replace('CPS', '<abbr title="Cyber-Physical System">CPS</abbr>')\
-    .replace('npm', '<code>npm</code>')
+    .replace('npm', '<code>npm</code>')\
+    .replace('•', '')
 
 if __name__ == "__main__":
   dx = 0

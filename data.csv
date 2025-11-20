@@ -18,3 +18,9 @@
 18;DIVE;15:40;Preliminary Survey on CPS Testing in Various Domains of the Industry;8;Guillaume Nguyen;!Xavier Devroey
 19;CORE;15:20;FlaDaGe: A Framework for Generation of Synthetic Data to Compare Flakiness Scores;19;https://doi.org/10.5281/zenodo.17206909@replication package;Mert Ege Can;!Joanna Kisaakye;Mutlu Beyazıt;Serge Demeyer
 20;REAP;15:00;Evaluating Test-Driven Code Generation: A Replication Study;11;https://arxiv.org/abs/2401.08500@arXiv;!Giovanni Rosa;Jesús Maria González-Barahona
+
+gawd;TOOL;16:10;https://github.com/pooya-rostami/gawd;;!Pooya Rostami Mazrae;Alexandre Decan;Tom Mens
+ghmap;TOOL;16:20;https://github.com/uhourri/ghmap;;!Youness Hourri;Alexandre Decan;Tom Mens
+CPSLint;TOOL;16:30;https://github.com/omersayilir75/C•PSDSL;;!Ömer Sayilir;Vadim Zaytsev
+rust-gpu-hybrid-compiler;TOOL;16:40;https://github.com/NiekAukes/rust-gpu-hybrid-compiler;;Niek Aukes;!Cristian-Andrei Begu
+RESTCov;TOOL;16:50;https://github.com/2tolgahan2/RESTCov;;Tolga¡han Bardakcı
