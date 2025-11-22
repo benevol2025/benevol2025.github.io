@@ -208,10 +208,16 @@
             </th>
           </tr>
           <tr>
-            <td>09:30 – 10:30</td>
+            <td>
+              09:30 – 10:30
+              <br>
+              (<a href="slides/deck15.pdf" class="ext">🖥️slides</a>)
+            </td>
             <td class="with-emoji">
               <strong>🔥 Keynote:</strong>
-              <span class="talk"><a href="pre/paper15.pdf">Language-Level Support for Multiple Versions for Software Evolution</a></span>
+              <span class="talk">
+                <a href="pre/paper15.pdf">Language-Level Support for Multiple Versions for Software Evolution</a>
+              </span>
               <br>
               <span class="author presenter">Hidehiko Masuhara</span>
             </td>
